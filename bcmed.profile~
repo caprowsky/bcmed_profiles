@@ -54,7 +54,7 @@ function bcmed_profile_modules() {
     'ctools','page_manager','bulk_export','views_content',
 
     // Panels modules
-    //'panels','panels_mini','panels_node',
+    'panels','panels_mini','panels_node',
     // Date
     'date_api', 'date_timezone',
     // Features, diff and strongarm
