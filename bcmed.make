@@ -8,21 +8,21 @@ projects[features][version] = "1.0"
 
 ; bcmed features
 
-projects[bcmed_views][subdir] = "bcmed_features"
-projects[bcmed_views][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_views][version] = "1.0-alpha1"
-
 projects[bcmed_biblio][subdir] = "bcmed_features"
 projects[bcmed_biblio][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_biblio][version] = "1.0-beta3"
 
-projects[bcmed_evento][subdir] = "bcmed_features"
-projects[bcmed_evento][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_evento][version] = "1.0-alpha1"
+projects[bcmed_event][subdir] = "bcmed_features"
+projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
+projects[bcmed_event][version] = "1.0-alpha1"
 
-projects[bcmed_culture_heritage][subdir] = "bcmed_features"
-projects[bcmed_culture_heritage][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_culture_heritage][version] = "1.0-alpha1"
+projects[bcmed_place_culture][subdir] = "bcmed_features"
+projects[bcmed_place_culture][location] = http://featureserver.springoo.it/fserver
+projects[bcmed_place_culture][version] = "1.0-alpha1"
+
+projects[bcmed_controller][subdir] = "bcmed_features"
+projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
+projects[bcmed_controller][version] = "1.0-alpha1"
 
 ; Modules by drupal.org
 
