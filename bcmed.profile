@@ -76,5 +76,43 @@ function bcmed_profile_modules() {
   return $modules;
 }
 
+// Insert test
+
+function vocabulary_test() {
+ 
+  $vocab = array(
+    'name' => t('Image Galleries'),
+    'multiple' => 0,
+    'required' => 0,
+    'hierarchy' => 0,
+    'relations' => 0,
+    'module' => 'taxonomy',
+    'nodes' => array('page' => 1),
+  );
+  $terms = array(
+    array(
+      'name' => 'term 1'
+    ),
+    array(
+      'name' => 'term 2'
+    ),
+  );
+
+  create_taxonomy($vocab, $terms);
+
+}
+
+function create_taxonomy($vocabulary, $terms) {
+
+  taxonomy_save_vocabulary($vocabulary);
+  $vid = $vocabulary['vid'];
+ 
+  dsm($vocabulary);
+ 
+  foreach ($terms as $term) {
+    $term['vid'] = $vid;
+    taxonomy_save_term($term);
+  }
+}
 
 ?>

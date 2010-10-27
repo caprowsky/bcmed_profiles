@@ -10,7 +10,7 @@ projects[features][version] = "1.0"
 
 projects[bcmed_biblio][subdir] = "bcmed_features"
 projects[bcmed_biblio][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_biblio][version] = "1.0-beta3"
+projects[bcmed_biblio][version] = "1.0-beta4"
 
 projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
@@ -22,7 +22,12 @@ projects[bcmed_place_culture][version] = "1.0-beta1"
 
 projects[bcmed_controller][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_controller][version] = "1.0-alpha1"
+projects[bcmed_controller][version] = "1.0-beta3"
+
+projects[bcmed_hp][subdir] = "bcmed/modules/bcmed_features"
+projects[bcmed_hp][location] = http://featureserver.springoo.it/fserver
+projects[bcmed_hp][version] = "1.0-beta3"
+
 
 ; Modules by drupal.org
 
