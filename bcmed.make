@@ -12,7 +12,7 @@ projects[bcmed_biblio][subdir] = "bcmed_features"
 projects[bcmed_biblio][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_biblio][version] = "1.0-beta3"
 
-; projects[bcmed_event][subdir] = "bcmed_features"
+projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_event][version] = "1.0-alpha1"
 
