@@ -27,9 +27,20 @@ projects[bcmed_controller][version] = "1.0-alpha1"
 ; Modules by drupal.org
 
 projects[views][subdir] = "contrib"
+projects[views][version] = "2.11"
+
+projects[draggableviews][subdir] = "contrib"
+projects[draggableviews][version] = "3.4"
+
 projects[cck][subdir] = "contrib"
+projects[cck][version] = "2.8"
+
 projects[imagecache][subdir] = "contrib"
+projects[imagecache][version] = "2.0-beta10"
+
 projects[imageapi][subdir] = "contrib"
+projects[imageapi][version] = "1.9"
+
 projects[filefield][subdir] = "contrib"
 
 projects[link][subdir] = "contrib"
