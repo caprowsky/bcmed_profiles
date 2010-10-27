@@ -69,7 +69,7 @@ function bcmed_profile_modules() {
     
     
     // Enable custom features,
-    
+    'bcmed_controller', 'bcmed_event', 'bcmed_place_culture', 'bcmed_biblio',    
    
   );
 
