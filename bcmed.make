@@ -14,11 +14,11 @@ projects[bcmed_biblio][version] = "1.0-beta3"
 
 projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_event][version] = "1.0-alpha1"
+projects[bcmed_event][version] = "1.0-beta1"
 
 projects[bcmed_place_culture][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_place_culture][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_place_culture][version] = "1.0-alpha1"
+projects[bcmed_place_culture][version] = "1.0-beta1"
 
 projects[bcmed_controller][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
@@ -42,12 +42,18 @@ projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.9"
 
 projects[filefield][subdir] = "contrib"
+projects[filefield][version] = "3.7"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
 projects[admin_menu][subdir] = "contrib"
+
+
 projects[imagefield][subdir] = "contrib"
+projects[imagefield][version] = "3.7"
+
+
 projects[masquerade][subdir] = "contrib"
 projects[better_formats][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
