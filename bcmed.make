@@ -16,11 +16,11 @@ projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_event][version] = "1.0-alpha1"
 
-; projects[bcmed_place_culture][subdir] = "bcmed_features"
+projects[bcmed_place_culture][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_place_culture][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_place_culture][version] = "1.0-alpha1"
 
-; projects[bcmed_controller][subdir] = "bcmed_features"
+projects[bcmed_controller][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_controller][version] = "1.0-alpha1"
 
