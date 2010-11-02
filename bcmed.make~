@@ -14,39 +14,30 @@ projects[bcmed_biblio][version] = "1.0-beta4"
 
 projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_event][version] = "1.0-beta1"
+projects[bcmed_event][version] = "1.0-beta2"
 
 projects[bcmed_place_culture][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_place_culture][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_place_culture][version] = "1.0-beta1"
+projects[bcmed_place_culture][version] = "1.0-beta2"
 
 projects[bcmed_controller][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_controller][version] = "1.0-beta3"
+projects[bcmed_controller][version] = "1.0-beta4"
 
 projects[bcmed_hp][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_hp][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_hp][version] = "1.0-beta3"
+projects[bcmed_hp][version] = "1.0-beta4"
+
+projects[bcmed_artist][subdir] = "bcmed/modules/bcmed_features"
+projects[bcmed_artist][location] = http://featureserver.springoo.it/fserver
+projects[bcmed_artist][version] = "1.0-beta1"
+
 
 
 ; Modules by drupal.org
 
-projects[spaces][subdir] = "contrib"
-projects[spaces][version] = "3.0"
-
-projects[context][subdir] = "contrib"
-projects[context][version] = "3.0"
-
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.11"
-
-projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.4"
-
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
-libraries[jquery_ui][directory_name] = "jquery.ui"
-libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 projects[draggableviews][subdir] = "contrib"
 projects[draggableviews][version] = "3.4"

@@ -47,11 +47,8 @@ function bcmed_profile_modules() {
     
 
     // Multilingual management
-    'i18n', 'i18nblocks', 'i18ncck', 'i18ncontent', 'i18nmenu', 'i18nstrings', 'i18nsync', 'i18ntaxonomy'
+    
 
-
-    // jquery
-    'jquery_ui',
 
     // Some modules for panels management like CTools
     'ctools','page_manager','bulk_export','views_content',
@@ -60,10 +57,6 @@ function bcmed_profile_modules() {
     //'panels','panels_mini','panels_node',
     // Date
     'date_api', 'date_timezone',
-    
-    // Space and context
-    'spaces', 'spaces_ui', 'spaces_customtext', 'spaces_dashboard', 'spaces_taxonomy', 'spaces_user','context','context_ui','context_layouts',
-    
     // Features, diff and strongarm
     'features','diff','strongarm',
     // Some modules contrib for image management
@@ -76,7 +69,7 @@ function bcmed_profile_modules() {
     
     
     // Enable custom features,
-    'bcmed_controller', 'bcmed_event', 'bcmed_place_culture', 'bcmed_biblio',    
+    'bcmed_controller', 'bcmed_event', 'bcmed_place_culture', 'bcmed_biblio', 'bcmed_hp',     
    
   );
 
