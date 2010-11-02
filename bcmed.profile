@@ -47,7 +47,7 @@ function bcmed_profile_modules() {
     
 
     // Multilingual management
-    'i18n', 'i18nblocks', 'i18ncck', 'i18ncontent', 'i18nmenu', 'i18nstrings', 'i18nsync', 'i18ntaxonomy',
+    'i18n', 'i18nblocks', 'i18ncck', 'i18ncontent', 'i18nmenu', 'i18nstrings', 'i18nsync', 'i18ntaxonomy', 'languageicons',
 
 
     // jquery
