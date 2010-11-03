@@ -26,7 +26,7 @@ projects[bcmed_controller][version] = "1.0-beta4"
 
 projects[bcmed_hp][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_hp][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_hp][version] = "1.0-beta4"
+projects[bcmed_hp][version] = "1.0-beta5"
 
 
 ; Modules by drupal.org
