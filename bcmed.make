@@ -28,6 +28,9 @@ projects[bcmed_hp][subdir] = "bcmed/modules/bcmed_features"
 projects[bcmed_hp][location] = http://featureserver.springoo.it/fserver
 projects[bcmed_hp][version] = "1.0-beta5"
 
+libraries[bcmedtheme][download][type] = "git"
+libraries[bcmedtheme][download][url] = "http://github.com/caprowsky/bcmedtheme.git"
+libraries[bcmedtheme][destination] = "themes/fusion"
 
 ; Modules by drupal.org
 
