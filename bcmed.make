@@ -43,6 +43,12 @@ projects[views][version] = "2.11"
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.4"
 
+projects[devel][subdir] = "contrib"
+projects[devel][version] = "1.22"
+
+projects[views_fluid_grid][subdir] = "contrib"
+projects[views_fluid_grid][version] = "1.1"
+
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
