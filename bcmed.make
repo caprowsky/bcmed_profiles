@@ -1,32 +1,44 @@
+; $Id: bcmed.make,v 0.0.8 25/11/2010 15:10:00 alessandrocapra Exp $
+
 api = 2
 core = "6.x"
+projects[drupal][version] = 6.19
 
 ; you can not do anything without
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
+; themes
+
+projects[fusion][version] = "1.0"
+
+;libraries[bcult][download][type] = "get"
+;libraries[bcult][download][url] = "http://featureserver.springoo.it/sites/default/files/fserver/bcult-1.1.tar"
+;libraries[bcult][directory_name] = "bcult"
+;libraries[bcult][destination] = "themes/fusion"
+
 ; bcmed features
 
-projects[bcmed_biblio][subdir] = "bcmed_features"
-projects[bcmed_biblio][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_biblio][version] = "1.0-beta4"
+;projects[bcmed_biblio][subdir] = "bcmed_features"
+;projects[bcmed_biblio][location] = http://featureserver.springoo.it/fserver
+;projects[bcmed_biblio][version] = "1.0-beta4"
 
-projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
-projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_event][version] = "1.0-beta2"
+;projects[bcmed_event][subdir] = "bcmed/modules/bcmed_features"
+;projects[bcmed_event][location] = http://featureserver.springoo.it/fserver
+;projects[bcmed_event][version] = "1.0-beta2"
 
-projects[bcmed_place_culture][subdir] = "bcmed/modules/bcmed_features"
-projects[bcmed_place_culture][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_place_culture][version] = "1.0-beta2"
+;projects[bcmed_place_culture][subdir] = "bcmed/modules/bcmed_features"
+;projects[bcmed_place_culture][location] = http://featureserver.springoo.it/fserver
+;projects[bcmed_place_culture][version] = "1.0-beta2"
 
-projects[bcmed_controller][subdir] = "bcmed/modules/bcmed_features"
-projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_controller][version] = "1.0-beta4"
+;projects[bcmed_controller][subdir] = "bcmed/modules/bcmed_features"
+;projects[bcmed_controller][location] = http://featureserver.springoo.it/fserver
+;projects[bcmed_controller][version] = "1.0-beta4"
 
-projects[bcmed_hp][subdir] = "bcmed/modules/bcmed_features"
-projects[bcmed_hp][location] = http://featureserver.springoo.it/fserver
-projects[bcmed_hp][version] = "1.0-beta5"
+;projects[bcmed_hp][subdir] = "bcmed/modules/bcmed_features"
+;projects[bcmed_hp][location] = http://featureserver.springoo.it/fserver
+;projects[bcmed_hp][version] = "1.0-beta5"
 
 libraries[bcmedtheme][download][type] = "git"
 libraries[bcmedtheme][download][url] = "http://github.com/caprowsky/bcmedtheme.git"
@@ -142,8 +154,51 @@ projects[i18n][version] = "1.7"
 projects[language_select][subdir] = "contrib"
 projects[language_select][version] = "1.0-beta1"
 
-projects[languageicons[subdir] = "contrib"
+projects[languageicons][subdir] = "contrib"
 projects[languageicons][version] = "2.0"
+
+projects[css_injector][subdir] = "contrib"
+projects[css_injector][version] = "1.4"
+
+projects[rules][subdir] = "contrib"
+projects[rules][version] = "1.3"
+
+projects[translation_overview][subdir] = "contrib"
+projects[translation_overview][version] = "2.4"
+
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = "1.2"
+
+projects[content_profile][subdir] = "contrib"
+projects[content_profile][version] = "1.0"
+
+projects[nodereference_url][subdir] = "contrib"
+projects[nodereference_url][version] = "1.6"
+
+projects[views_attach][subdir] = "contrib"
+projects[views_attach][version] = "2.2"
+
+projects[apachesolr][subdir] = "contrib"
+projects[apachesolr][version] = "1.2"
+
+projects[fb][subdir] = "contrib"
+projects[fb][version] = "3.0-rc1"
+
+projects[fbconnect][subdir] = "contrib"
+projects[fbconnect][version] = "2.0-beta1"
+
+projects[twitter][subdir] = "contrib"
+projects[twitter][version] = "3.0-beta3"
+
+projects[oauth][download][type] = "get"
+projects[oauth][download][url] = "http://ftp.drupal.org/files/projects/oauth-6.x-2.02.tar.gz"
+projects[oauth][directory_name] = "contrib"
+projects[oauth][destination] = "contrib"
+
+
+projects[friendconnect][subdir] = "contrib"
+projects[friendconnect][version] = "1.0-alpha1"
+
 
 ; biblio 
 projects[biblio][subdir] = "contrib"
@@ -175,6 +230,11 @@ projects[imce][subdir] = "contrib"
 
 projects[fusion][version] = "1.0"
 
+;libraries[bcult][download][type] = "get"
+;libraries[bcult][download][url] = "http://featureserver.springoo.it/sites/default/files/fserver/bcult-1.1.tar"
+;libraries[bcult][directory_name] = "bcult"
+;libraries[bcult][destination] = "themes/fusion"
+
 ; more power to advanced search for future
 ; make new result set instantly with apachesolr_ajax and apachesolr_autocomplete
 
@@ -191,5 +251,7 @@ libraries[SolrPhpClient][download][type] = "get"
 libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
+
+
 
 
