@@ -2,7 +2,7 @@
 
 api = 2
 core = "6.x"
-projects[drupal][version] = 6.19
+projects[drupal][version] = 6.20
 
 ; you can not do anything without
 
@@ -64,6 +64,9 @@ projects[devel][version] = "1.22"
 projects[views_fluid_grid][subdir] = "contrib"
 projects[views_fluid_grid][version] = "1.1"
 
+projects[taxonomy_manager][subdir] = "contrib"
+projects[taxonomy_manager][version] = "2.2"
+
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
@@ -104,10 +107,10 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.8"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.7"
+projects[panels][version] = "3.9"
 
 projects[devel][subdir] = "contrib"
 
@@ -140,16 +143,22 @@ projects[skinr][subdir] = "contrib"
 projects[skinr][version] = "1.5"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "1.3"
+projects[rules][version] = "1.4"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta4"
+projects[feeds][version] = "1.0-beta10"
+
+projects[feeds_xpathparser][subdir] = "contrib"
+projects[feeds_xpathparser][version] = "1.0-beta4"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "1.0"
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.7"
+
+projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][version] = "1.0-alpha4"
 
 projects[language_select][subdir] = "contrib"
 projects[language_select][version] = "1.0-beta1"
@@ -187,6 +196,9 @@ projects[fb][version] = "3.0-rc1"
 projects[fbconnect][subdir] = "contrib"
 projects[fbconnect][version] = "2.0-beta1"
 
+projects[toolbar][subdir] = "contrib"
+projects[toolbar][version] = "2.3"
+
 projects[twitter][subdir] = "contrib"
 projects[twitter][version] = "3.0-beta3"
 
@@ -195,10 +207,28 @@ projects[oauth][download][url] = "http://ftp.drupal.org/files/projects/oauth-6.x
 projects[oauth][directory_name] = "contrib"
 projects[oauth][destination] = "contrib"
 
-
 projects[friendconnect][subdir] = "contrib"
 projects[friendconnect][version] = "1.0-alpha1"
 
+; media video
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "1.3"
+
+; geolocatization
+
+projects[openlayers][subdir] = "contrib"
+projects[openlayers][version] = "2.0-alpha10"
+
+projects[openlayers_geocoder][subdir] = "contrib"
+projects[openlayers_geocoder][version] = "2.0-alpha5"
+
+projects[mapbox][subdir] = "contrib"
+projects[mapbox][version] = "1.0-alpha3"
+
+projects[openlayers_plus][download][type] = "git"
+projects[openlayers_plus][download][url] = "http://github.com/developmentseed/openlayers_plus.git"
+projects[openlayers_plus][destination] = "modules/contrib"
 
 ; biblio 
 projects[biblio][subdir] = "contrib"
@@ -206,9 +236,9 @@ projects[footnotes][subdir] = "contrib"
 
 ; patch for workflow
 projects[workflow][subdir] = "contrib"
-projects[workflow][version] = "1.4"
+projects[workflow][version] = "1.5"
 ; http://drupal.org/node/558378
-projects[workflow][patch][] = "http://drupal.org/files/issues/558378-features-support-workflow_0.patch"
+; projects[workflow][patch][] = "http://drupal.org/files/issues/558378-features-support-workflow_0.patch"
 
 ; exstension workflow
 projects[workflow_extensions][subdir] = "contrib"
