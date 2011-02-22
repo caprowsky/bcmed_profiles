@@ -1,4 +1,4 @@
-; $Id: bcmed.make,v 0.0.8 25/11/2010 15:10:00 alessandrocapra Exp $
+; $Id: bcmed.make,v 0.0.9 22/02/2011 10:10:10 alessandrocapra Exp $
 
 api = 2
 core = "6.x"
@@ -149,7 +149,7 @@ projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta10"
 
 projects[feeds_xpathparser][subdir] = "contrib"
-projects[feeds_xpathparser][version] = "1.0-beta4"
+projects[feeds_xpathparser][version] = "1.11"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "1.0"
@@ -212,6 +212,9 @@ projects[friendconnect][version] = "1.0-alpha1"
 
 ; media video
 
+projects[emfield][subdir] = "contrib"
+projects[emfield][version] = "2.4"
+
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "1.3"
 
@@ -226,9 +229,9 @@ projects[openlayers_geocoder][version] = "2.0-alpha5"
 projects[mapbox][subdir] = "contrib"
 projects[mapbox][version] = "1.0-alpha3"
 
-projects[openlayers_plus][download][type] = "git"
-projects[openlayers_plus][download][url] = "http://github.com/developmentseed/openlayers_plus.git"
-projects[openlayers_plus][destination] = "modules/contrib"
+libraries[openlayers_plus][download][type] = "git"
+libraries[openlayers_plus][download][url] = "http://github.com/developmentseed/openlayers_plus.git"
+libraries[openlayers_plus][destination] = "modules/contrib"
 
 ; biblio 
 projects[biblio][subdir] = "contrib"
@@ -250,7 +253,6 @@ projects[workflow_extensions][version] = "1.0-alpha1"
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.2/tinymce_3_3_2.zip"
 libraries[tinymce][directory_name] = "tinymce"
-
 
 projects[vertical_tabs][subdir] = "contrib"
 projects[imce_wysiwyg][subdir] = "contrib"
