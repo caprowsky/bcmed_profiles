@@ -210,6 +210,9 @@ projects[oauth][destination] = "contrib"
 projects[friendconnect][subdir] = "contrib"
 projects[friendconnect][version] = "1.0-alpha1"
 
+projects[rpx][subdir] = "contrib"
+projects[rpx][version] = "1.4"
+
 ; media video
 
 projects[emfield][subdir] = "contrib"
@@ -217,6 +220,11 @@ projects[emfield][version] = "2.4"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "1.3"
+
+; some hack
+
+projects[views_hacks][subdir] = "contrib"
+projects[views_hacks][version] = "1.0-beta1"
 
 ; geolocatization
 
