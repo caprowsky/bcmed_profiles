@@ -196,8 +196,8 @@ projects[fb][version] = "3.0-rc1"
 projects[fbconnect][subdir] = "contrib"
 projects[fbconnect][version] = "2.0-beta1"
 
-projects[toolbar][subdir] = "contrib"
-projects[toolbar][version] = "2.3"
+;projects[toolbar][subdir] = "contrib"
+;projects[toolbar][version] = "2.4"
 
 ;projects[twitter][subdir] = "contrib"
 ;projects[twitter][version] = "3.0-beta3"
