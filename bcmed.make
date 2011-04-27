@@ -199,8 +199,8 @@ projects[fbconnect][version] = "2.0-beta1"
 projects[toolbar][subdir] = "contrib"
 projects[toolbar][version] = "2.3"
 
-projects[twitter][subdir] = "contrib"
-projects[twitter][version] = "3.0-beta3"
+;projects[twitter][subdir] = "contrib"
+;projects[twitter][version] = "3.0-beta3"
 
 projects[oauth][download][type] = "get"
 projects[oauth][download][url] = "http://ftp.drupal.org/files/projects/oauth-6.x-2.02.tar.gz"
